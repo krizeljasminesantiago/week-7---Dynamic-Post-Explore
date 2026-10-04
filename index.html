@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Post Explorer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+
+  <header class="header">
+    <h1>Dynamic Post Explorer</h1>
+    <button id="btn-load-data">Load Posts</button>
+  </header>
+
+  <main class="container">
+    <div id="loading-box" class="status loading hidden">Loading posts, kindly wait...</div>
+    <div id="error-box" class="status error hidden"></div>
+    <section id="post-list" class="posts-list"></section>
+  </main>
+
+</body>
+</html>
